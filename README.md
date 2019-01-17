@@ -1,0 +1,10 @@
+DATA STRUCTURE EXAMPLE USING SCALA and JAVA
+
+1. Hello World. 
+
+2. LinkedList 
+
+3. TREE
+
+4. STACK & QUEUE 
+
