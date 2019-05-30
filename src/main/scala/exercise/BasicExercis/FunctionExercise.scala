@@ -1,5 +1,4 @@
-package exercise
-
+package exercise.BasicExercis
 
 /**
   * Exercise 1

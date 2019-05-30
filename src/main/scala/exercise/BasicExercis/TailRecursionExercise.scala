@@ -1,4 +1,4 @@
-package exercise
+package exercise.BasicExercis
 
 object TailRecursionExercise extends App {
 
