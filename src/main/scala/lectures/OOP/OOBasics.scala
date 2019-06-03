@@ -28,8 +28,8 @@ class Person(val name: String, val age: Int) {
   val novel = new Novel("Great Expectations", 1861, author)
 
 
-//  println(novel.authorAge)
-//  println(novel.isWrittenBy(imposter))
+  //  println(novel.authorAge)
+  //  println(novel.isWrittenBy(imposter))
 
   val counter = new Counter
   counter.inc.print

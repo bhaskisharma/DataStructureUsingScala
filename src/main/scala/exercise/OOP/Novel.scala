@@ -1,6 +1,5 @@
 package exercise.OOP
 
-
 /*
   Novel and a Writer
   Writer: first name, surname, year
@@ -16,7 +15,7 @@ class Novel(name: String, year: Int, author: Writer) {
 
   def isWrittenBy(author: Writer): Boolean = author == this.author
 
-  def copy(newYear: Int) : Novel = new Novel(name, newYear, author)
+  def copy(newYear: Int): Novel = new Novel(name, newYear, author)
 }
 
 class Writer(firtName: String, surName: String, val year: Int) {
@@ -33,25 +32,26 @@ class Writer(firtName: String, surName: String, val year: Int) {
     - overload inc/dec to receive an amount
  */
 
-class Counter(val count: Int = 0){
+class Counter(val count: Int = 0) {
   def print = println(count)
 
-  def inc ={
+  def inc = {
     println("incrementing")
-    new Counter(count+1)
+    new Counter(count + 1)
   }
 
   def dec = {
     println("decrementing")
-    new Counter(count-1)
+    new Counter(count - 1)
   }
 
-  def inc(n: Int): Counter ={
-   if(n <= 0) this
-   else inc.inc(n-1)
+  def inc(n: Int): Counter = {
+    if (n <= 0) this
+    else inc.inc(n - 1)
   }
-  def dec(n: Int): Counter ={
-    if(n <= 0) this
-    else inc.inc(n-1)
+
+  def dec(n: Int): Counter = {
+    if (n <= 0) this
+    else inc.inc(n - 1)
   }
 }
