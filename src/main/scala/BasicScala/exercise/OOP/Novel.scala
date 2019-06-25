@@ -1,4 +1,4 @@
-package exercise.OOP
+package BasicScala.exercise.OOP
 
 /*
   Novel and a Writer

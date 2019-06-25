@@ -1,4 +1,4 @@
-package exercise.BasicExercis
+package BasicScala.exercise.BasicExercis
 
 /**
   * Exercise 1
