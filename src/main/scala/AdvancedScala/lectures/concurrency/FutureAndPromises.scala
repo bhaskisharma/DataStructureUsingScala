@@ -19,10 +19,10 @@ object FutureAndPromises extends App {
   println(aFuture.value)
 
   println("Waiting to complete the future")
-  aFuture.onComplete(t => t match {
+  aFuture.onComplete {
     case Success(value) => println(s"meaning of life is $value")
     case Failure(e) => println(s"failed becoz of $e")
-  })
+  }
 
   Thread.sleep(3000)
 
